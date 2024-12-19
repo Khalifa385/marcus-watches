@@ -1,0 +1,87 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Navigation */
+header {
+    background-color: #2d2d2d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main About Us Section */
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1, .about-us h2 {
+    color: #2d2d2d;
+    margin-bottom: 20px;
+}
+
+.intro, .story, .craftsmanship, .values, .why-choose {
+    margin-bottom: 40px;
+}
+
+.intro p, .story p, .craftsmanship p, .values ul, .why-choose ul {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Section for Lists (Values, Why Choose) */
+.values ul, .why-choose ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.values li, .why-choose li {
+    margin-bottom: 15px;
+}
+
+.values li strong, .why-choose li strong {
+    color: #2d2d2d;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d2d2d;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
